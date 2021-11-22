@@ -35,3 +35,7 @@ A beauty parlour, as opposed to a beauty salon, is dedicated to only one service
 - Contact Form
 - Footer
 - jwt authentication
+
+## Client Side
+
+Client Side Code: https://github.com/UniqueSwagger/Jerins_Parlour_Client

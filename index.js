@@ -172,7 +172,7 @@ const run = async () => {
     });
 
     //getting admin
-    app.get("/users/:email", async (req, res) => {
+    app.get("/users/:email", verifyToken, async (req, res) => {
       const email = req.params.email;
       const user = await usersCollection.findOne({ email: email });
       let isAdmin = false;

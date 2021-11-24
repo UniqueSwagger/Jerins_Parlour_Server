@@ -124,7 +124,7 @@ const run = async () => {
       res.send(result);
     });
 
-    //externally made for google sign in
+    //externally made for google or github sign in
     app.put("/users", async (req, res) => {
       const user = req.body;
       const filter = { email: user.email };
